@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.undotted {
+  list-style-type: none;
+}
+
+.label {
+  cursor: pointer;
+}
+
+
+/* стилизация header */
+
+.header {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 145px;
+  align-items: center;
+  margin-left: 110px;
+}
+  
+.header__nav {
+  margin-left: 35px;
+}
+
+.header__list {
+  display: flex;  
+  height: 20px;
+  left: 216px;
+  top: 16px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.header__nav {
+  margin-bottom: 5px;
+}
+
+.header__contact {
+  margin-left: 650px;
+}
+
+.header__contact-item {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1E0606;
+  margin-left: 24px;
+}
+
+.header__logo {
+  margin-right: 25px;
+}
+
+.header__list-link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-right: 15px;
+}
+
+/* стилизация footer */
+
+.footer {
+  background-color: #434343;
+}
+
+.footer__container {
+  color: #AAAAAA;
+  margin-left: 110px;
+  display: inline-block;
+}
+.footer__column1 {
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.line-first {
+  margin-top: 23px;
+}
+
+.footer__link {
+  color: #ffffff;
+}
+
+.footer__column1-items {
+  margin-top: 28px;
+}
+
+.footer__column-items1 {
+  margin-top: 15px;
+}
+
+.footer__column2 {
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.footer__column3 {
+  margin-left: 16px;
+  display: inline-block;
+}
+
+.awards__link {
+  display: block;
+}
+
+.footer__last {
+
+}
+
+.line-last {
+
+}
+
+.simple-rating {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  color: #ffffff;
+}
+.simple-rating :before {
+  content: "★★★★★";
+  display: block;
+  
+}
+
+.simple-rating__items {
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+}
+
+.simple-rating__item {
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+
+}
+
+.simple-rating__lable {
+  flex: 0 0 20%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.copyright {
+  color: #ffffff;
+}
+
+.development {
+  color: #A2A2A2;
+}
