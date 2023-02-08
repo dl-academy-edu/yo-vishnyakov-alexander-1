@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>DL Academy</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+
+    <!-- Favicon -->
+
+    <!-- build:css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+<body>
+  @@include('blocks/header.html')
+  <main>
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <a href="/">
+        <img src="/img/icon/Vector.svg" alt="">
+      </a>
+      <li><a href="/pages/contact.html">Contact us</a></li>
+      </ul>
+      <form action="">
+      <fieldset>
+        <label>Name<input type="text" required></label>
+        <label>Phone<input type="text" required></label>
+        <label>Email<input type="email" required></label>
+        <label>Message<input type="text" required></label>
+        <button type="submit">APPLY</button>
+      </fieldset>
+      <div>
+        <label><input type="checkbox">By clicking on the button, you consent to the processing of your personal data</label>
+      </div>
+    </form>
+    <section>
+      <p>
+        Our support team are on-hand to assist with any issues you are experiencing.
+      </p>
+      <p>
+        Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.
+      </p>
+      <p>
+        An expert is waiting to help you!
+      </p>
+    </section>
+  </main>
+  @@include('blocks/footer.html')
+</body>
+</html>

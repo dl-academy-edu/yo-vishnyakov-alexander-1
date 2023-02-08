@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  margin-left: 110px;
+  &_list {
+    padding-left: 60px;
+    display: flex;
+    height: 20px;
+    left: 216px;
+    top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  &_contact {
+    padding-left: 640px;
+  }
+  &_contact-item {
+    font-weight: 700;
+    font-size: 14px;
+    color: #1E0606;
+    padding-left: 24px;
+  }
+  &_list-link {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-right: 15px;
+  }
+}
