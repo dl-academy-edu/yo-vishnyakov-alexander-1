@@ -1,0 +1,162 @@
+.contact {
+    margin-left: 110px;
+    display: flex;
+}
+
+.contact__name {
+    margin-top: 60px;
+    margin-left: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+}
+
+.contact__page {
+    margin-left: 110px;
+    display: flex;
+    margin-top: -10px;
+}
+
+.contact__pages {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.contact__page__items {
+    color: #1E0606;
+}
+
+.contact__page__vector {
+    background-image: url(../img/icon/vector.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    height: 12px;
+    padding-left: 40px;
+    width: 8px;
+}
+
+.form {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding-left: 40px;
+    background-color: #E5EAF8;
+    width: 640px;
+    height: 542px;
+}
+
+.form__items {
+    padding-top: 42px;
+    display: grid;
+}
+
+.form__items__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1E0606;
+    line-height: 19px;
+}
+
+.form__items__name__field {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 580px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.form__items__second {
+    display: flex;
+}
+
+.form__items__field {
+    padding-top: 20px;
+    display: grid;
+}
+
+.form__items__field__second {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: grid;
+}
+
+.form__items__phone__field {
+    margin-top: 3px;
+    width: 290px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.form__items__email__field {
+    margin-top: 3px;
+    width: 290px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.form__items__message__field {
+    margin-top: 3px;
+    width: 600px;
+    height: 150px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.form__checkbox {
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.form__checkbox__input {
+    width: 19px;
+    height: 19px;
+}
+
+.form__checkbox__text {
+    padding-left: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+}
+
+.contact__info {
+    margin-top: 50px;
+    padding-left: 120px;
+    width: 380px;
+}
+
+.contact__info__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.contact__info__text__second {
+    margin-top: 20px;
+}
+
+.contact__info__subtitle {
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    color: #C29974;
+}

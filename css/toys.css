@@ -1,0 +1,279 @@
+.toys {
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+.toys__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+}
+
+.toys__page {
+    display: flex;
+    margin-top: -11px;
+}
+
+.toys__pages {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.toys__page__items {
+    color: #1E0606;
+}
+
+.toys__page__vector {
+    background-image: url(../img/icon/vector.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    height: 12px;
+    padding-left: 40px;
+    width: 8px;
+}
+
+
+.toys__leaf {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.toys__leaf__items {
+    display: flex;
+}
+
+.toys__leaf__left {
+    margin-right: 457px;
+}
+
+.toys__leaf__right {
+    margin-left: 457px;
+}
+
+.toys__leaf__button__left {
+    background-image: url(../img/icon/Vector3.svg);
+    background-position: center;
+    background-color: #fff;
+    border: none;
+    width: 13px;
+    height: 26px;
+}
+
+.toys__leaf__page-active {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.toys__leaf__page {
+    padding-left: 67px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.toys__leaf__link-active {
+    color: #C29974;
+}
+
+.toys__leaf__link {
+    color: #1E0606;
+}
+
+.toys__leaf__button__right {
+    background-image: url(../img/icon/Vector4.svg);
+    background-position: center;
+    background-color: #fff;
+    border: none;
+    width: 13px;
+    height: 26px;
+}
+
+.toys__filter {
+    margin-top: 50px;
+    background: rgba(125, 151, 218, 0.2);
+    width: 1400px;
+    height: 254px;
+}
+
+.filter {
+    padding-left: 110px;
+    padding-top: 42px;
+    display: flex;
+}
+
+.filter__cost__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 25px;
+}
+
+.filter__cost__slider {
+    display: grid;
+    justify-content: center;
+}
+
+.filter__cost__input {
+    width: 188px;
+    height: 4px;
+}
+
+.filter__cost__number {
+    padding-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    word-spacing: 166px;
+}
+
+.filter__color {
+    margin-left: 94px;
+}
+
+.filter__color__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding-bottom: 15px;
+}
+
+.filter__color__input {
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    border: 2px solid #C29974;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+
+.filter__color__type {
+    margin-top: -5px;
+    padding-left: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.filter__delivery {
+    margin-left: 125px;
+}
+
+.filter__delivery__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding-bottom: 16px;
+}
+
+.filter__delivery__input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #C29974;
+    border-radius: 3px;
+    padding-bottom: 12px;
+}
+
+.filter__delivery__type {
+    padding-left: 6px;
+}
+
+.filter__amount {
+    padding-left: 70px;
+}
+
+.filter__amount__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    padding-bottom: 15px;
+}
+
+.filter__amount__list {
+    display: flex;
+    width: 240px;
+    height: 35px;
+}
+
+.filter__amount__type {
+    background-color: #fff;
+}
+
+.filter__amount__type-cheked {
+    background-color: #F3D0DB;
+    
+}
+
+.filter__button {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.toys__choice {
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+.toys__choice__first {
+    display: flex;
+}
+
+.toys__choice__items {
+    padding-left: 20px;
+}
+
+.toys__choice__text {
+    padding-top: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #1E0606;
+}
+
+.toys__choice__price {
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0606;
+}
+
+.toys__choice__second {
+    margin-top: 45px;
+    margin-bottom: 75px;
+    display: flex;
+}
