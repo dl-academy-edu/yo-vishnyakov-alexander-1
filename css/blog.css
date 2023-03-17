@@ -1,0 +1,148 @@
+.blog {
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+.blog__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+}
+
+.blog__page {
+    display: flex;
+    margin-top: -11px;
+}
+
+.blog__pages {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.blog__page__items {
+    color: #1E0606;
+}
+
+.blog__page__vector {
+    background-image: url(../img/icon/vector.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    height: 12px;
+    padding-left: 40px;
+    width: 8px;
+}
+
+.blog__items__first {
+    display: flex;
+    margin-top: 50px;
+}
+
+.blog__items__second {
+    display: flex;
+    margin-top: 30px;
+}
+
+.blog__item {
+    max-width: 380px;
+}
+
+.blog__column {
+    padding-left: 20px;
+}
+
+.blog__items__date {
+    padding-top: 20px;
+    margin-bottom: 7px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+}
+
+.blog__items__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+}
+
+.blog__items__text {
+    padding-top: 15px;
+    color: #1E0606;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.blog__leaf {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.blog__leaf__items {
+    display: flex;
+}
+
+.blog__leaf__left {
+    margin-right: 457px;
+}
+
+.blog__leaf__right {
+    margin-left: 457px;
+}
+
+.blog__leaf__button__left {
+    background-image: url(../img/icon/Vector3.svg);
+    background-position: center;
+    background-color: #fff;
+    border: none;
+    width: 13px;
+    height: 26px;
+}
+
+.blog__leaf__page-active {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.blog__leaf__page {
+    padding-left: 67px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.blog__leaf__link-active {
+    color: #C29974;
+}
+
+.blog__leaf__link {
+    color: #1E0606;
+}
+
+.blog__leaf__button__right {
+    background-image: url(../img/icon/Vector4.svg);
+    background-position: center;
+    background-color: #fff;
+    border: none;
+    width: 13px;
+    height: 26px;
+}

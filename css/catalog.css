@@ -1,0 +1,238 @@
+.category {
+    margin-left: 110px;
+    margin-bottom: 55px;
+    margin-top: 60px;
+}
+
+.category__name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #1E0606;
+}
+
+.category__page {
+    display: flex;
+    margin-top: -10px;
+}
+
+.category__pages {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.category__page__items {
+    color: #1E0606;
+}
+
+.category__page__vector {
+    background-image: url(../img/icon/vector.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    height: 12px;
+    padding-left: 40px;
+    width: 8px;
+}
+
+.product__items__first {
+    display: flex;
+    margin-top: 50px;
+}
+
+.product__items1 {
+    width: 280px;
+    height: 270px;
+    background-color: #DBE4DB;
+    background-image: url(../pages/img/pullover.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.product__items__link1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+
+.product__link1 {
+    position: absolute;
+    left: 75px;
+    top: 103px;
+    width: 129px;
+}
+
+.product__items2 {
+    margin-left: 20px;
+    background-color: #EADDD3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../pages/img/sock.png);
+    width: 280px;
+    height: 270px;
+}
+
+.product__items__link2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+
+.product__link2 {
+    width: 155px;
+    left: 62px;
+    top: 103px;
+    position: relative;
+}
+
+.product__items3 {
+    margin-left: 20px;
+    background-color: #F8F2DA;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../pages/img/toys.png);
+    width: 280px;
+    height: 270px;
+}
+
+.product__items__link3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+
+.product__link3 {
+    left: 104px;
+    top: 119px;
+    position: relative;
+}
+
+.product__items__second {
+    margin-top: 23px;
+    margin-left: 200px;
+    display: flex;
+}
+
+.product__items4 {
+    background-color: #D5D4E1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../pages/img/monkey.png);
+    width: 280px;
+    height: 270px;
+}
+
+.product__items__link4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+
+.product__link4 {
+    left: 44px;
+    top: 119px;
+    position: relative;
+}
+
+.product__items5 {
+    background-color: #F3D0DB;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../pages/img/flamingos.png);
+    width: 280px;
+    height: 270px;
+    margin-left: 20px;
+}
+
+.product__items__link5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+}
+
+.product__link5 {
+    left: 105px;
+    top: 119px;
+    position: relative;
+}
+
+.product__items6 {
+    background-color: #E5EAF8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../pages/img/dress.png);
+    width: 280px;
+    height: 270px;
+    margin-left: 20px;
+}
+
+.product__items__link6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+
+}
+
+.product__link6 {
+    left: 62px;
+    top: 103px;
+    width: 100px;
+    position: relative;
+}
+
+.category__last {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.category__text__info {
+    padding-top: 25px;
+}
+
+.category__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.category__text__first {
+    width: 680px;
+    height: 44px;
+}
+
+.category__text__second {
+    padding-top: 15px;
+    width: 680px;
+    height: 44px;
+}
+
+.category__text__third {
+    padding-top: 15px;
+    width: 680px;
+    height: 66px;
+}
